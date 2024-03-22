@@ -1,6 +1,12 @@
 # "Leading with Purpose" Campaign Site Documentation
 
-## Introduction
+## Overview
+
+This documentation provides an overview of the "Leading with Purpose" campaign site developed for the University of North Dakota (UND). The site aims to foster community interaction, celebrate diversity, and promote innovation through its latest social media campaign.
+
+The site is structured into three main sections, as outlined by the project's requirements, and each section is built with responsive design and accessibility in mind. Several enhancements have also been incorporated to enrich the user experience.
+
+## Framework used
 
 This project is a responsive web application built using React.js, chosen for its efficiency in rendering dynamic user interfaces and its component-based architecture. React's ability to handle complex state management and facilitate the creation of interactive UIs made it the ideal framework for developing the "Leading with Purpose" campaign site. The site aims to promote community engagement, inclusivity, and innovation through an immersive social media experience.
 
@@ -17,12 +23,6 @@ The "Leading with Purpose" campaign site utilizes a range of libraries and depen
 - `@emotion/react` and `@emotion/styled`: Libraries designed to write css styles with JavaScript, providing powerful and predictable style composition.
 
 These libraries collectively support the application's responsive design, interactivity, and efficient state management, ensuring a robust and seamless user
-
-## Overview
-
-This documentation provides an overview of the "Leading with Purpose" campaign site developed for the University of North Dakota (UND). The site aims to foster community interaction, celebrate diversity, and promote innovation through its latest social media campaign.
-
-The site is structured into three main sections, as outlined by the project's requirements, and each section is built with responsive design and accessibility in mind. Several enhancements have also been incorporated to enrich the user experience.
 
 ## Installation and Setup
 
