@@ -1,5 +1,23 @@
 # "Leading with Purpose" Campaign Site Documentation
 
+## Introduction
+
+This project is a responsive web application built using React.js, chosen for its efficiency in rendering dynamic user interfaces and its component-based architecture. React's ability to handle complex state management and facilitate the creation of interactive UIs made it the ideal framework for developing the "Leading with Purpose" campaign site. The site aims to promote community engagement, inclusivity, and innovation through an immersive social media experience.
+
+## Libraries and Dependencies
+
+The "Leading with Purpose" campaign site utilizes a range of libraries and dependencies that enhance its functionality and user interface:
+
+- `react`: A JavaScript library for building user interfaces, allowing for the creation of reusable UI components.
+- `react-dom`: Serves as the entry point to the DOM and server renderers for React, allowing for app rendering in the browser.
+- `react-router-dom`: Provides DOM bindings for React Router, enabling navigation between different components in the application.
+- `react-icons`: Offers a large collection of icons which are easily importable in the project, enhancing the visual elements.
+- `react-tagcloud`: A simple tag cloud (word cloud) library for React, used to represent the hashtag frequency in a visually appealing format.
+- `react-scripts`: Includes scripts and configuration used by Create React App to abstract the setup for building React applications.
+- `@emotion/react` and `@emotion/styled`: Libraries designed to write css styles with JavaScript, providing powerful and predictable style composition.
+
+These libraries collectively support the application's responsive design, interactivity, and efficient state management, ensuring a robust and seamless user
+
 ## Overview
 
 This documentation provides an overview of the "Leading with Purpose" campaign site developed for the University of North Dakota (UND). The site aims to foster community interaction, celebrate diversity, and promote innovation through its latest social media campaign.
