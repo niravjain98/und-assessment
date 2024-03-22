@@ -1,0 +1,144 @@
+.post-filter-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px; 
+  margin: 20px 0;
+}
+
+.search-input-container {
+  position: relative;
+}
+
+.search-input {
+  min-width: 100%;
+}
+
+.search-clear {
+  color: lightgray;
+  position: absolute;
+  bottom: -1.2rem;
+}
+
+.search-clear:hover {
+  cursor: pointer;
+  color: darkgray;
+  text-decoration: underline;
+}
+
+
+.date-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between;
+  width: 100%; 
+}
+
+.date-input-container input[type="date"] {
+  padding: 0.8rem 0.8rem;
+}
+.search-input-container input[type="text"] {
+  padding: 0.8rem 0;
+}
+
+.search-input-container input[type="text"],
+.date-input-container input[type="date"] {
+  margin-top: 0.8rem;
+  display: block; 
+  width: auto; 
+  max-width: 500px; 
+}
+
+.date-input-container label {
+  display: block;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .post-filter-inputs {
+    flex-direction: row;
+    align-items: flex-end; 
+  }
+
+  .posts-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-input-container {
+    margin-right: 2rem;
+  }
+
+  .search-input {
+    min-width: 18rem;
+  }
+
+  .date-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start; 
+    width: 100%;
+  }
+
+  .date-input {
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .posts-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .posts-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #e2e2e2;
+}
+
+.pagination button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0056b3;
+}
+
+.pagination button:disabled {
+  color: #999;
+  cursor: not-allowed;
+  background-color: #eee;
+}
+
+.pagination button.current-page {
+  font-weight: bold;
+  border-color: #0056b3;
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,75 @@
+.post-card {
+    border-radius: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #e7f3e6;
+    cursor: default;
+}
+
+.post-card .message .click-link {
+  cursor: pointer;
+  color: blue;
+}
+
+.post-card .message .click-link:hover {
+  text-decoration: underline;
+}
+
+.post-card .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.post-card .profile-icon {
+    border-radius: 50%;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.post-card .profile-icon img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post-card .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card .name {
+    color: #017719;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.post-card .handle {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.post-card .message {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .post-card .card {
+    padding: 1.5rem;
+  }
+
+  .post-card .profile-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-card .profile-icon {
+    margin-bottom: 1rem;
+  }
+
+  .post-card .user-info {
+    align-items: flex-start;
+  }
+}

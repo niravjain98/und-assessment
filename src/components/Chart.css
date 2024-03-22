@@ -1,0 +1,42 @@
+.tag-cloud .tag-cloud-tag {
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .tag-cloud .tag-cloud-tag:hover {
+    cursor: pointer;
+    color: #3498db; 
+    transform: scale(1.1);
+  }
+
+  .tag-cloud .tag-cloud-tag:hover .tag-tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .tag-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+  }
+  
+  .tag-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }

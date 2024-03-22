@@ -1,0 +1,133 @@
+.presidents-endorsement {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.endorsement-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; 
+}
+
+.president-photo {
+  max-width: 150px;
+}
+
+.endorsement-text h1,
+.endorsement-text h2 {
+  font-family: "Trade Gothic", "Oswald Medium", "Oswald", Arial, sans-serif;
+  color: #009a44;
+}
+
+.endorsement-text {
+  font-family: "Helvetica Neue";
+  color: black;
+  margin-bottom: 20px;
+}
+
+.feedback-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.feedback-link {
+  font-family: "Helvetica Neue";
+  display: inline-block;
+  background-color: #009a44;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-link:hover {
+  background-color: #003366;
+}
+
+@media screen and (min-width: 768px) {
+  .endorsement-content {
+    gap: 40px;
+  }
+
+  .president-photo {
+    max-width: 230px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .endorsement-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+
+  .endorsement-text h1,
+  .endorsement-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .president-photo {
+    max-width: 250px;
+    margin-right: 3px;
+    margin-left: 40px; 
+  }
+
+  .endorsement-text {
+    font-size: 0.8rem;
+  }
+
+  .feedback-link-container {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .presidents-endorsement {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .president-photo {
+    max-width: 350px;
+    margin-right: 50px;
+    margin-left: 40px; 
+  }
+
+  .endorsement-text h1,
+  .endorsement-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .endorsement-text {
+    font-size: 1rem;
+  }
+
+  .feedback-link {
+    font-family: "Helvetica Neue";
+    display: inline-block;
+    background-color: #009a44;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .feedback-link:hover {
+    background-color: #003366;
+  }
+}
